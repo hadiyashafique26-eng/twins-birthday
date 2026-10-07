@@ -2196,10 +2196,6 @@ h1 span {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
-
 @media (max-width: 800px) {
 
     .moments-inner {
@@ -2227,8 +2223,13 @@ h1 span {
         font-size: 8px;
     }
 
+
+    /* =========================
+       MOBILE CARD POSITIONS
+    ========================= */
+
     .card-one {
-        top: 17%;
+        top: 14%;
         left: 4%;
     }
 
@@ -2238,7 +2239,7 @@ h1 span {
     }
 
     .card-three {
-        top: 73%;
+        top: 76%;
         left: 4%;
     }
 
@@ -2248,27 +2249,27 @@ h1 span {
     }
 
     .card-five {
-        top: 79%;
+        top: 80%;
         right: 3%;
     }
 
     .card-six {
-        top: 43%;
+        top: 38%;
         left: 2%;
     }
 
     .card-seven {
-        top: 57%;
+        top: 61%;
         right: 2%;
     }
 
     .card-eight {
-        top: 35%;
+        top: 31%;
         left: 5%;
     }
 
     .card-nine {
-        top: 84%;
+        top: 85%;
         left: 30%;
     }
 
@@ -2278,14 +2279,19 @@ h1 span {
     }
 
     .card-eleven {
-        top: 65%;
+        top: 68%;
         left: 15%;
     }
 
     .card-twelve {
-        top: 51%;
+        top: 55%;
         right: 12%;
     }
+
+
+    /* =========================
+       MOBILE DECORATION
+    ========================= */
 
     .sticker-heart,
     .sticker-stars,
@@ -2293,26 +2299,37 @@ h1 span {
         display: none;
     }
 
+
+    /* =========================
+       POPUP
+    ========================= */
+
     .memory-popup-box {
         padding: 38px 25px 30px;
     }
 
+
+    /* =========================
+       MOBILE SECRET DETAILS
+    ========================= */
+
     .moment-secret-heart {
-    opacity: 0.75;
+        opacity: 0.75;
+    }
+
+    .hidden-word {
+        opacity: 0.8;
+    }
+
+    .three-click-secret {
+        opacity: 0.7;
+    }
+
+    .equivalent-secret {
+        opacity: 0.8;
+    }
 }
 
-.hidden-word {
-    opacity: 0.8;
-}
-
-.three-click-secret {
-    opacity: 0.7;
-}
-
-.equivalent-secret {
-    opacity: 0.8;
-}
-}
 /* ================================
    SLIDE 5 — THE LITTLE LIFE
 ================================ */
